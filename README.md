@@ -3,9 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Important Fact
 `Make sure one is making sure this combination of dependecies-`
- "react": "^17.0.0",
- "react-dom": "^17.0.0",
- "react-qr-reader": "^2.2.1",
+"react": "^17.0.0",
+"react-dom": "^17.0.0",
+"react-qr-reader": "^2.2.1",
 
 `Since React-DOM V17 is being used instead of latest like v18.2 or so`
  One should make changes in index.js too.
