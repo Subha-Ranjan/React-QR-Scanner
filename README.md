@@ -6,11 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 "react": "^17.0.0",\
 "react-dom": "^17.0.0",\
-"react-qr-reader": "^2.2.1",\
+"react-qr-reader": "^2.2.1",
 
-`Since React-DOM V17 is being used instead of latest like v18.2 or so one should make changes in index.js too.`\
+`Since React-DOM V17 is being used instead of latest like v18.2 or so one should make changes in index.js too.`
 
-index.js\
+index.js
  ----------------------------------------------
 import React from "react";\
 import { render } from "react-dom";\
@@ -18,7 +18,7 @@ import "./index.css";
 import App from "./App";\
 
 const root = document.getElementById("root");\
-render(<App />, root);\
+render(<App />, root);
  ----------------------------------------------
 
 
