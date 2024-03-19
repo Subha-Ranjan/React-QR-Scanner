@@ -10,8 +10,8 @@ npm start
 
 `Since here React-DOM V17 is being used instead of the latest version like v18.2 or so, one should make the changes in index.js too.`
 
-### index.js
----------------------------------------------
+## index.js
+
 `import React from "react";`\
 `import { render } from "react-dom";`\
 `import "./index.css";`\
