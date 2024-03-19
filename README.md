@@ -3,22 +3,22 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Important Fact
 `Make sure one is making sure this combination of dependecies-`
-"react": "^17.0.0",
-"react-dom": "^17.0.0",
-"react-qr-reader": "^2.2.1",
 
-`Since React-DOM V17 is being used instead of latest like v18.2 or so`
- One should make changes in index.js too.
+"react": "^17.0.0",\
+"react-dom": "^17.0.0",\
+"react-qr-reader": "^2.2.1",\
 
- index.js
+`Since React-DOM V17 is being used instead of latest like v18.2 or so one should make changes in index.js too.`\
+
+index.js\
  ----------------------------------------------
- import React from "react";
- import { render } from "react-dom";
- import "./index.css";
- import App from "./App";
+import React from "react";\
+import { render } from "react-dom";\
+import "./index.css";
+import App from "./App";\
 
- const root = document.getElementById("root");
- render(<App />, root);
+const root = document.getElementById("root");\
+render(<App />, root);\
  ----------------------------------------------
 
 
