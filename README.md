@@ -11,14 +11,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 `Since React-DOM V17 is being used instead of latest like v18.2 or so one should make changes in index.js too.`
 
 index.js
- ----------------------------------------------
+----------------------------------------------
 import React from "react";\
 import { render } from "react-dom";\
 import "./index.css";\
 import App from "./App";\
 const root = document.getElementById("root");\
 render(<App />, root);
- ----------------------------------------------
+----------------------------------------------
 
 
 ## Available Scripts
